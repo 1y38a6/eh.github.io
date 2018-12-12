@@ -29,7 +29,7 @@ function clickAction(number){
 
     clicks++;
 
-    if(clicks == 1){
+    if(clicks == 10){
         lastClick();
     }
 }

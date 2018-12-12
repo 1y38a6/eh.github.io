@@ -9,7 +9,7 @@ body{
 }
 
 .gridbox{
-    background: #b2f3ee;
+    background: #fecde2;
     opacity: 0.1;
     border-radius: 10%;
     transform: scale(0.99, 0.99);
@@ -17,7 +17,7 @@ body{
 }
 
 .highlight{
-    transform: scale(1, 1);
+    transform: scale(0.98, 0.98);
     opacity: 1 !important;
 }
 
