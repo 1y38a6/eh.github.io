@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*font-family: 'VT323', monospace;*/
+}
+
+body{
+    background: black;
+}
+
+.gridbox{
+    background: #b2f3ee;
+    opacity: 0.1;
+    border-radius: 10%;
+    transform: scale(0.99, 0.99);
+    transition: 150ms ease-in-out;
+}
+
+.highlight{
+    transform: scale(1, 1);
+    opacity: 1 !important;
+}
+
+.semihighlight{
+    opacity: 0.5;
+}
+
+.grid{
+    display: grid;
+    justify-content: center;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.pup-center1{
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pinkbackground{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fecde2;
+}
+
+.secrettext{
+    font-family: 'Pangolin', cursive;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    user-select: none;
+    pointer-events: none;
+    text-align: center;
+}
+
+.block-love-me{
+    font-family: 'Pangolin', cursive;
+    font-size: 36px;
+    background: white;
+    border: 4px solid #ef7fb7;
+    color: #ef7fb7;
+    padding: 40px 40px;
+    text-align: center;
+}
+
+.pup-bnt{
+    width: 100px;
+    height: 45px;
+    margin: 0 10px;
+    background: white;
+    border: 4px solid #ef7fb7;
+    color: #ef7fb7;
+}
+
+.bnt{
+    cursor: pointer;
+    transform: scale(1, 1);
+    transition: 200ms ease-in-out;
+}
+
+.bnt:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.bnt:active{
+    transform: scale(0.9, 0.9);
+}
+
+.close{
+    /*ackground: white;
+    border: 4px solid #ef7fb7;
+    color: #ef7fb7;
+    padding: 0 5px;
+    text-align: center;*/
+    margin-top: -40px;
+    float: right;
+}
+
+.disabled{
+    pointer-events: none;
+    user-select: none;
+}
+
+.invisible{
+    opacity: 0;
+}
+
+.slideblock{
+    position: absolute;
+    top: 46px;
+    width: 100%;
+    height: 66px;
+    background: white;
+    transition: 1000ms ease-in-out;
+}
+
+.slideAway{
+    z-index: -1;
+    top: 0px;   
+    background: #ef7fb7;
+}
